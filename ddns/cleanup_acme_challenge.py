@@ -1,6 +1,6 @@
 import os
 
-from ddns_google.client_wrapper import ClientWrapper
+from common.ddns_google.client_wrapper import ClientWrapper
 
 zone_name = os.getenv('ZONE_NAME')
 domain = os.getenv('DOMAIN')
